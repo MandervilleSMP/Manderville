@@ -1,35 +1,46 @@
-:root {
-
-    --main-bg-color: aqua
-
-}
-
-
-h1 {
-
-    font-family: 'Poppins', sans-serif;
-  
-}
-
-h2 {
-
-    font-family: 'Overpass', monospace;
-
-}
-
 body {
-    color: white;
-    background-color: black;
+    background-color: rgb(46, 7, 69);
 }
 
-button {
-    background-color: purple; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  
+#SMP  {
+    color: white;
+    font-family: cursive;
+    text-align:  center;
+   
+
+}
+#Subline {
+    color: white;
+    font-family: cursive;
+    text-align: center; 
+    
+}
+
+#Home {
+    position:absolute;
+    transition: .5s ease;
+    top: 0%;
+    left: 85%;
+}
+
+#Events {
+    position:absolute;
+    transition: .5s ease;
+    top: 0%;
+    left: 89%;
+}
+
+#store {
+    
+    position:absolute;
+    transition: .5s ease;
+    top: 0%;
+    left: 94%;
+}
+
+#join {
+    position:absolute;
+    transition: .5s ease;
+    top: 25%;
+    left: 47%;
 }
